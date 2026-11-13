@@ -1,0 +1,27 @@
+# --- RepoMind Phase 1 ---
+
+# Code parsing (for ast_chunker.py)
+tree-sitter>=0.25
+tree-sitter-python>=0.23
+
+# Embeddings (for embedder.py)
+sentence-transformers
+
+# Vector database (for vector_store.py)
+chromadb
+
+# API server (for main.py, later in Phase 1)
+fastapi
+uvicorn[standard]
+
+# Environment variables (for API keys)
+python-dotenv
+
+# LLM calls (for answer.py, later in Phase 1 — you already use Groq)
+groq
+
+langchain
+langchain-chroma
+langchain-huggingface
+langchain-groq
+

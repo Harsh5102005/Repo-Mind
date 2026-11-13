@@ -1,0 +1,27 @@
+# RepoMind Backend Dependencies
+
+# Code parsing (for ast_chunker.py)
+tree-sitter>=0.25
+tree-sitter-python>=0.23
+
+# Embeddings (for embedder.py)
+sentence-transformers
+
+# Vector database (for vector_store.py)
+chromadb
+
+# API server (for main.py)
+fastapi
+uvicorn[standard]
+
+# Environment variables (for API keys)
+python-dotenv
+
+# LLM calls (for answer.py - Groq)
+groq
+
+# LangChain ecosystem
+langchain
+langchain-chroma
+langchain-huggingface
+langchain-groq
